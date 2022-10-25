@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-area {
+    margin-top: 50px !important;
+}
+
+.contact-adder-form {
+    background-color: rgb(6, 30, 49);
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.contact-adder-form h1,
+button,
+label {
+    color: white;
+}
+
+.contact-adder-form .form-group {
+    margin: 15px;
+}
+
+.error-border{
+    border: 2px solid red !important;
+    transition:  0.5s all;
+}
+
+
+.card{
+    border-radius: 10px !important;
+}
+.card img {
+    max-height: 280px;
+    object-fit: cover;
+}
+
+.student-cards {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-text{
+    color: white;
+}
+.card-body{
+    background-color: rgb(39, 38, 38);
+}
+.student-cards .card {
+    margin:20px 40px 0px 0px;
+}
+.container {
+display: flex;
+justify-content: center;
+margin-top: 25px;
+}
+.container button{
+  padding: 10px 50px;
+  background-color: rgb(6, 30, 49);
+  border: none;
+  border-radius: 25px;
+}
+.container button:hover{
+    box-shadow: none;
+    background-color: rgba(6, 30, 49, 0.918);
+}
+.container button:focus{
+    box-shadow: none !important;
+    background-color: rgba(6, 30, 49, 0.918);
+    border: none;
+}
+.filtration{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+.filter-cards{
+margin-top: 30px;
+flex-direction: column;
+justify-content: space-evenly;
+padding: 25px;
+background-color: black;
+border-radius: 20px;
+ display: none;  
+}
+.filter-cards .form-group label{
+    color: steelblue !important;
+}
+.filtration button{
+    letter-spacing: 2px;
+    
+}
+.btn-success{
+    background-color: steelblue;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.show{
+    display: flex !important;
+}
+.hide{
+    display: none;
+}
+.filtered_container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
